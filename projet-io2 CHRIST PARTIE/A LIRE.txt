@@ -1,0 +1,2 @@
+j'ai changé les noms des fichiers dans carousel et j'ai fais un update des fichiers en modfiant 2/3 trucs qui étaient normalement inutiles,  
++ j'ai commenté le plus possible le CSS

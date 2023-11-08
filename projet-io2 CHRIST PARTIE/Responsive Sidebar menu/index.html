@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Sidebar Menu  | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="web.css">
+      <link rel="stylesheet" href="../projet-io2 CHRIST PARTIE/SLIDE-real/testCarousel2.css">
+
+  </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <i class="fa-solid fa-fork-knife"></i>
+<!--      <i class='bx bxl-c-plus-plus icon'></i>-->
+        <div class="logo_name">FOOD ADDICT</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">U HUNGRY??</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">CATEGORY</span>
+        </a>
+         <span class="tooltip">Category</span>
+      </li>
+      <li>
+       <a href="../LOGIN&SIGN-UP/login&signup.html">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">ACCOUNT</span>
+       </a>
+       <span class="tooltip">User</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Messages</span>
+       </a>
+       <span class="tooltip">Messages</span>
+     </li>
+<!--     <li>-->
+<!--       <a href="#">-->
+<!--         <i class='bx bx-pie-chart-alt-2' ></i>-->
+<!--         <span class="links_name">Analytics</span>-->
+<!--       </a>-->
+<!--       <span class="tooltip">Analytics</span>-->
+<!--     </li>-->
+<!--     <li>-->
+<!--       <a href="#">-->
+<!--         <i class='bx bx-folder' ></i>-->
+<!--         <span class="links_name">File Manager</span>-->
+<!--       </a>-->
+<!--       <span class="tooltip">Files</span>-->
+<!--     </li>-->
+     <li>
+       <a href="#">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">Order</span>
+       </a>
+       <span class="tooltip">Order</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-heart' ></i>
+         <span class="links_name">Saved</span>
+       </a>
+       <span class="tooltip">Saved</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img alt="profileImg" src="dc1.png">
+           <div class="name_job">
+             <div class="name">THANH TANG</div>
+             <div class="job">HEHEHEHEHE</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <input id="check" type="checkbox">
+      <nav>
+          <a href="WEB.html">
+<!--              <div class="icon">FOOD <b style="color: black;">A</b>ddict</div>-->
+              <a href="../HOME/WEB.html" ><img class="icon" src="../background/WEBsymbol.png">
+          </a>
+
+
+          <!--    SEARCH BAR FUNCTION WITH PHP-->
+          <!--    <form action="recherche.php" method="post">-->
+          <div class="search_box">
+              <input name="search" placeholder="What are you craving?" type="search">
+              <!--        SEARCH ICON-->
+              <span class="fa fa-search"></span>
+          </div>
+          </a>
+          <ol>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="../LOGIN&SIGN-UP/login&signup.html">Account</a></li>
+
+          </ol>
+          <!--    Users interface-->
+          <label class="bar" for="check">
+              <!--        bars symble from Font awesome FA-->
+              <span class="fa fa-bars" id="bars"></span>
+              <!--        Cross symbol-->
+              <span class="fa fa-times" id="times"></span>
+          </label>
+      </nav>
+      <!--BACKGROUND-->
+      <section></section>
+
+<!--      SLIDE PHOTO-->
+      <!--SLIDE PHOTO-->
+      <div class="container">
+          <h1 class="main-heading">Test2 carousel</h1>
+          <div class="slideshow" >
+              <!-- carousel control buttons -->
+              <button class="slide-btn slide-btn-1"></button>
+              <button class="slide-btn slide-btn-2"></button>
+              <button class="slide-btn slide-btn-3"></button>
+              <button class="slide-btn slide-btn-4"></button>
+              <!-- carousel wrapper which contains all images -->
+              <!--        SAME SIZE PHOTO ONLY !!! 960x640-->
+              <div class="slideshow-wrapper">
+                  <div class="slide">
+                      <img class="slide-img" src="../projet-io2 CHRIST PARTIE/images/business.jpg" alt="1">
+                  </div>
+                  <div class="slide">
+                      <img class="slide-img" src="../projet-io2 CHRIST PARTIE/images/cafe.jpg" alt="2">
+                  </div>
+                  <div class="slide">
+                      <img class="slide-img" src="../background/anime-anime-girls-picture-in-picture-seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-o-minai-seishun-buta-yarō-wa-bunny-girl-senpai-no-yume-wo-minai-hd-wallpaper-preview.jpg" alt="3">
+                  </div>
+                  <div class="slide">
+                      <img class="slide-img" src="../projet-io2%20CHRIST%20PARTIE/images/woman.jpg" alt="4">
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
+<!--SIDE BAR-->
+  <script src="script.js"></script>
+
+</body>
+</html>
